@@ -30,7 +30,9 @@ public class Question1 implements Arithmatic {
 		System.out.println("1+1="+c.add(1, 1));
 		System.out.println("2^2="+c.square(2));
 		System.out.println("2^3="+c.cube(2));
+		System.out.println("2-1="+Arithmatic.sub(2, 1));
 		System.out.println("2*3="+Arithmatic.mul(2,3));
+		System.out.println("4/2="+Arithmatic.div(4, 2));
 	}
 
 }
